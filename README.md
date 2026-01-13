@@ -31,33 +31,6 @@ shizutoku-static-page/
 - **アニメーション**: 浮遊効果、フェードイン、ホバーエフェクトなど
 - **アクセシビリティ**: セマンティック HTML、適切なコントラスト比
 
-## デプロイ方法
-
-### GitHub Pages
-
-1. GitHub リポジトリの Settings > Pages に移動
-2. Source を `main` ブランチに設定
-3. 自動的にデプロイされます
-
-### Netlify
-
-1. Netlify にログイン
-2. "New site from Git" を選択
-3. リポジトリを接続
-4. Publish directory は空欄のまま
-5. Deploy を実行
-
-### Vercel
-
-```bash
-npm install -g vercel
-vercel --prod
-```
-
-### カスタムドメイン設定
-
-デプロイ後、各サービスの設定画面でカスタムドメイン `shizutoku.com` を設定してください。
-
 ## ローカルでの確認
 
 シンプルな HTTP サーバーで確認できます：
