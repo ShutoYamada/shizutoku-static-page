@@ -1,0 +1,1 @@
+# shizutoku-static-page
